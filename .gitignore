@@ -1,0 +1,8 @@
+*
+!*/
+!/.gitignore
+!/parser_log_wfile.py
+!/README.md
+!/logs/
+/logs/*
+!/logs/messages.log

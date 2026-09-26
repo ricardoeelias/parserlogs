@@ -1,0 +1,160 @@
+[INFO] 2026-01-10 - Periodic job 'cleanup_expired_tokens' completed successfully
+[INFO] 2026-01-10 - Session initialized for session_id=sess_57576
+[WARNING] 2026-01-11 - Slow query detected: SELECT * FROM audit_logs took 2.7s (threshold: 1.0s)
+[INFO] 2026-01-11 - HTTP GET /api/v1/users returned 200 OK (latency: 150ms)
+[ERROR] 2026-01-12 - MemoryError: Unable to allocate 256 MiB for array in /app/tasks/worker.py:130
+[INFO] 2026-01-12 - User logged in successfully
+[WARNING] 2026-01-13 - Undefined array key "role" in /var/www/html/app/Controllers/AuthController.php on line 86
+[INFO] 2026-01-13 - Session initialized for session_id=sess_84847
+[WARNING] 2026-01-14 - User 8062 attempted password reset with expired token
+[INFO] 2026-01-14 - User authentication successful for user_id=7596
+[INFO] 2026-01-15 - Session initialized for session_id=sess_70637
+[WARNING] 2026-01-15 - Environment variable 'REDIS_CACHE_TTL' not set, falling back to default (3600)
+[ERROR] 2026-01-16 - KeyError: 'Authorization' header missing in request to protected route '/api/v1/admin'
+[INFO] 2026-01-16 - User logged in successfully
+[INFO] 2026-01-17 - User logged in successfully
+[WARNING] 2026-01-17 - Undefined array key "role" in /var/www/html/app/Controllers/AuthController.php on line 118
+[INFO] 2026-01-18 - Connection pool established with MySQL database 'app_prod'
+[INFO] 2026-01-18 - Session initialized for session_id=sess_41285
+[INFO] 2026-01-19 - Redis cache hit for key 'user_profile:8508'
+[WARNING] 2026-01-19 - Attempting retry 2/3 for external API HTTP GET request to https://api.payments.com/v1
+[INFO] 2026-01-20 - Successfully uploaded file document_5905.pdf to bucket 'user-media'
+[INFO] 2026-01-20 - Successfully uploaded file document_5462.pdf to bucket 'user-media'
+[WARNING] 2026-01-21 - Slow query detected: SELECT * FROM audit_logs took 2.26s (threshold: 1.0s)
+[INFO] 2026-01-21 - Session initialized for session_id=sess_31178
+[INFO] 2026-01-22 - Task app.tasks.send_email[job_1590] succeeded in 2.94s
+[INFO] 2026-01-22 - Session initialized for session_id=sess_57795
+[INFO] 2026-01-23 - User authentication successful for user_id=7658
+[WARNING] - User 3938 attempted password reset with expired token
+[INFO] 2026-01-24 - HTTP GET /api/v1/users returned 200 OK (latency: 129ms)
+[ERROR] 2026-01-24 - Fatal error: Maximum execution time of 30 seconds exceeded in /var/www/html/public/index.php on line 212
+[ERROR] 2026-01-25 - Failed to connect to database server at host 'db.internal:3306'
+[ERROR] 2026-01-25 - MemoryError: Unable to allocate 1024 MiB for array in /app/tasks/worker.py:44
+[WARNING] 2026-01-26 - Undefined array key "role" in /var/www/html/app/Controllers/AuthController.php on line 190
+[INFO] 2026-01-26 - Successfully uploaded file document_8066.pdf to bucket 'user-media'
+[INFO] 2026-01-27 - User authentication successful for user_id=7691
+[INFO] 2026-01-27 - User authentication successful for user_id=3851
+[INFO] 2026-01-28 - Task app.tasks.send_email[job_8238] succeeded in 1.6s
+[INFO] 2026-01-28 - Connection pool established with MySQL database 'app_prod'
+[INFO] 2026-01-29 - Periodic job 'cleanup_expired_tokens' completed successfully
+[WARNING] 2026-01-29 - User 4185 attempted password reset with expired token
+[INFO] 2026-01-30 - Periodic job 'cleanup_expired_tokens' completed successfully
+[INFO] 2026-01-30 - Rendered view auth/login.blade.php in 164ms
+[INFO] 2026-01-31 - Periodic job 'cleanup_expired_tokens' completed successfully
+[INFO] 2026-01-31 - Connection pool established with MySQL database 'app_prod'
+[INFO] 2026-02-01 - Task app.tasks.send_email[job_4841] succeeded in 1.02s
+[INFO] - User authentication successful for user_id=7275
+[INFO] 2026-02-02 - User authentication successful for user_id=2020
+[WARNING] 2026-02-02 - Attempting retry 2/3 for external API HTTP GET request to https://api.payments.com/v1
+[INFO] 2026-02-03 - User authentication successful for user_id=4613
+[INFO] 2026-02-03 - Rendered view auth/login.blade.php in 148ms
+[INFO] - User authentication successful for user_id=1444
+[INFO] 2026-02-04 - Connection pool established with MySQL database 'app_prod'
+[WARNING] 2026-02-05 - Invalid password attempt for user_id=8705
+[INFO] 2026-02-05 - Session initialized for session_id=sess_36130
+[INFO] 2026-02-06 - Session initialized for session_id=sess_70952
+[WARNING] 2026-02-06 - DeprecationWarning: Call to deprecated method process_legacy_payment() in /app/services/payment.py:188
+[INFO] 2026-02-07 - Session initialized for session_id=sess_19961
+[WARNING] 2026-02-07 - Rate limit threshold reached for IP 192.168.1.131 on endpoint '/api/v1/login'
+[ERROR] 2026-02-08 - Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/app/Database/Driver.php on line 177
+[ERROR] 2026-02-08 - Fatal error: Maximum execution time of 30 seconds exceeded in /var/www/html/public/index.php on line 213
+[INFO] 2026-02-09 - HTTP GET /api/v1/users returned 200 OK (latency: 34ms)
+[INFO] 2026-02-09 - Redis cache hit for key 'user_profile:7209'
+[INFO] 2026-02-10 - User authentication successful for user_id=6576
+[INFO] 2026-02-10 - User authentication successful for user_id=4937
+[INFO] 2026-02-11 - Successfully uploaded file document_4986.pdf to bucket 'user-media'
+[INFO] 2026-02-11 - Redis cache hit for key 'user_profile:6764'
+[INFO] 2026-02-12 - Successfully uploaded file document_9779.pdf to bucket 'user-media'
+[WARNING] 2026-02-12 - Attempting retry 2/3 for external API HTTP GET request to https://api.payments.com/v1
+[INFO] 2026-02-13 - Session initialized for session_id=sess_15965
+[INFO] 2026-02-13 - Session initialized for session_id=sess_71524
+[ERROR] 2026-02-14 - KeyError: 'Authorization' header missing in request to protected route '/api/v1/admin'
+[INFO] 2026-02-14 - User authentication successful for user_id=5066
+[ERROR] 2026-02-15 - Uncaught TypeError: Argument #1 ($user) must be of type User, null given in /var/www/html/app/Services/UserService.php on line 30
+[WARNING] 2026-02-15 - Invalid password attempt for user_id=4457
+[INFO] 2026-02-16 - Periodic job 'cleanup_expired_tokens' completed successfully
+[WARNING] 2026-02-16 - Undefined variable $config in /var/www/html/app/Helpers/System.php on line 72
+[ERROR] - KeyError: 'Authorization' header missing in request to protected route '/api/v1/admin'
+[INFO] 2026-02-17 - Periodic job 'cleanup_expired_tokens' completed successfully
+[INFO] 2026-02-18 - Session initialized for session_id=sess_88385
+[WARNING] 2026-02-18 - Environment variable 'REDIS_CACHE_TTL' not set, falling back to default (3600)
+[INFO] 2026-02-19 - User authentication successful for user_id=3973
+[WARNING] 2026-02-19 - Undefined variable $config in /var/www/html/app/Helpers/System.php on line 120
+[INFO] 2026-02-20 - User authentication successful for user_id=7561
+[INFO] 2026-02-20 - Rendered view auth/login.blade.php in 25ms
+[INFO] 2026-02-21 - Periodic job 'cleanup_expired_tokens' completed successfully
+[WARNING] 2026-02-21 - DeprecationWarning: Call to deprecated method process_legacy_payment() in /app/services/payment.py:156
+[WARNING] 2026-02-22 - Undefined variable $config in /var/www/html/app/Helpers/System.php on line 228
+[INFO] 2026-02-22 - User authentication successful for user_id=5479
+[INFO] 2026-02-23 - Connection pool established with MySQL database 'app_prod'
+[WARNING] 2026-02-23 - Rate limit threshold reached for IP 192.168.1.125 on endpoint '/api/v1/login'
+[INFO] 2026-02-24 - User authentication successful for user_id=9903
+[WARNING] 2026-02-24 - Slow query detected: SELECT * FROM audit_logs took 2.63s (threshold: 1.0s)
+[ERROR] 2026-02-25 - Uncaught TypeError: Argument #1 ($user) must be of type User, null given in /var/www/html/app/Services/UserService.php on line 237
+[WARNING] 2026-02-25 - Undefined variable $config in /var/www/html/app/Helpers/System.php on line 54
+[WARNING] 2026-02-26 - Environment variable 'REDIS_CACHE_TTL' not set, falling back to default (3600)
+[INFO] 2026-02-26 - User authentication successful for user_id=1588
+[WARNING] 2026-02-27 - Undefined variable $config in /var/www/html/app/Helpers/System.php on line 26
+[WARNING] 2026-02-27 - Slow query detected: SELECT * FROM audit_logs took 0.93s (threshold: 1.0s)
+[INFO] 2026-02-28 - Task app.tasks.send_email[job_7267] succeeded in 2.21s
+[INFO] 2026-02-28 - Successfully uploaded file document_8555.pdf to bucket 'user-media'
+[INFO] 2026-03-01 - Connection pool established with MySQL database 'app_prod'
+[WARNING] 2026-03-01 - Rate limit threshold reached for IP 192.168.1.99 on endpoint '/api/v1/login'
+[ERROR] 2026-03-02 - Failed to connect to database server at host 'db.internal:3306'
+[INFO] 2026-03-02 - Rendered view auth/login.blade.php in 102ms
+[INFO] 2026-03-03 - User logged in successfully
+[INFO] 2026-03-03 - HTTP GET /api/v1/users returned 200 OK (latency: 95ms)
+[INFO] 2026-03-04 - Periodic job 'cleanup_expired_tokens' completed successfully
+[INFO] 2026-03-04 - User authentication successful for user_id=6549
+[INFO] 2026-03-05 - Connection pool established with MySQL database 'app_prod'
+[WARNING] 2026-03-05 - Attempting retry 2/3 for external API HTTP GET request to https://api.payments.com/v1
+[INFO] 2026-03-06 - User authentication successful for user_id=4626
+[ERROR] 2026-03-06 - Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/app/Database/Driver.php on line 44
+[INFO] 2026-03-07 - Periodic job 'cleanup_expired_tokens' completed successfully
+[WARNING] 2026-03-07 - Rate limit threshold reached for IP 192.168.1.115 on endpoint '/api/v1/login'
+[INFO] 2026-03-08 - Periodic job 'cleanup_expired_tokens' completed successfully
+[INFO] 2026-03-08 - HTTP GET /api/v1/users returned 200 OK (latency: 97ms)
+[INFO] 2026-03-09 - Rendered view auth/login.blade.php in 71ms
+[INFO] 2026-03-09 - Task app.tasks.send_email[job_3129] succeeded in 1.94s
+[INFO] 2026-03-10 - User authentication successful for user_id=6869
+[INFO] 2026-03-10 - Periodic job 'cleanup_expired_tokens' completed successfully
+[INFO] 2026-03-11 - User logged in successfully
+[INFO] 2026-03-11 - Session initialized for session_id=sess_62640
+[INFO] 2026-03-12 - Successfully uploaded file document_6277.pdf to bucket 'user-media'
+[WARNING] 2026-03-12 - User 6327 attempted password reset with expired token
+[INFO] 2026-03-13 - User authentication successful for user_id=4522
+[INFO] 2026-03-13 - Periodic job 'cleanup_expired_tokens' completed successfully
+[INFO] 2026-03-14 - User logged in successfully
+[ERROR] 2026-03-14 - Failed to connect to database server at host 'db.internal:3306'
+[ERROR] - MemoryError: Unable to allocate 512 MiB for array in /app/tasks/worker.py:54
+[INFO] - Successfully uploaded file document_2773.pdf to bucket 'user-media'
+[ERROR] 2026-03-16 - ValueError: Field 'total_amount' must be numeric, got string 'N/A' in /app/services/processor.py:194
+[INFO] 2026-03-16 - User logged in successfully
+[WARNING] 2026-03-17 - Rate limit threshold reached for IP 192.168.1.96 on endpoint '/api/v1/login'
+[INFO] 2026-03-17 - Connection pool established with MySQL database 'app_prod'
+[ERROR] 2026-03-18 - ValueError: Field 'total_amount' must be numeric, got string 'N/A' in /app/services/processor.py:208
+[INFO] 2026-03-18 - Rendered view auth/login.blade.php in 90ms
+[INFO] 2026-03-19 - Redis cache hit for key 'user_profile:1125'
+[INFO] 2026-03-19 - Successfully uploaded file document_1126.pdf to bucket 'user-media'
+[WARNING] 2026-03-20 - User 6802 attempted password reset with expired token
+[INFO] 2026-03-20 - User logged in successfully
+[WARNING] 2026-03-21 - Undefined array key "role" in /var/www/html/app/Controllers/AuthController.php on line 37
+[ERROR] 2026-03-21 - ValueError: Field 'total_amount' must be numeric, got string 'N/A' in /app/services/processor.py:205
+[INFO] 2026-03-22 - Task app.tasks.send_email[job_2868] succeeded in 1.9s
+[ERROR] 2026-03-22 - Uncaught TypeError: Argument #1 ($user) must be of type User, null given in /var/www/html/app/Services/UserService.php on line 54
+[WARNING] 2026-03-23 - Rate limit threshold reached for IP 192.168.1.164 on endpoint '/api/v1/login'
+[INFO] 2026-03-23 - Rendered view auth/login.blade.php in 125ms
+[INFO] 2026-03-24 - Connection pool established with MySQL database 'app_prod'
+[INFO] 2026-03-24 - User logged in successfully
+[INFO] 2026-03-25 - Session initialized for session_id=sess_52143
+[INFO] 2026-03-25 - Task app.tasks.send_email[job_5059] succeeded in 2.51s
+[WARNING] 2026-03-26 - Rate limit threshold reached for IP 192.168.1.155 on endpoint '/api/v1/login'
+[INFO] 2026-03-26 - Redis cache hit for key 'user_profile:6401'
+[WARNING] 2026-03-27 - User 3317 attempted password reset with expired token
+[INFO] 2026-03-27 - User authentication successful for user_id=7171
+[INFO] 2026-03-28 - HTTP GET /api/v1/users returned 200 OK (latency: 66ms)
+[INFO] - Successfully uploaded file document_3253.pdf to bucket 'user-media'
+[INFO] 2026-03-29 - Task app.tasks.send_email[job_6517] succeeded in 3.08s
+[INFO] 2026-03-29 - HTTP GET /api/v1/users returned 200 OK (latency: 23ms)
+[INFO] 2026-03-30 - HTTP GET /api/v1/users returned 200 OK (latency: 91ms)
+[INFO] 2026-03-30 - HTTP GET /api/v1/users returned 200 OK (latency: 140ms)
