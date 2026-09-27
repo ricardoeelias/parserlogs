@@ -62,6 +62,15 @@ El script busca las siguientes estructuras en cada línea:
 1. **Tipo de mensaje:** Al inicio de la línea con el formato `[INFO]`, `[WARNING]` o `[ERROR]`.
 2. **Fecha:** Espacio seguido de la fecha en formato ` YYYY-MM-DD - ` (ej. ` 2026-09-25 - `).
 
+## 📄 Reflexión técnica
+
+* **Partes sugeridas por IA:** 
+1. **Librerías o bibliotecas de Python:** entre las librerías internas de Python se han utilizado os (manejo de argumentos desde línea de comandos), re (expresioner regulares) y sys y la colección Counter.
+2. **Estructura de control** with dentro de la que se usarán funciones para manejo de archivos, específicamente fopen.
+3. **Detección de patrones** la sentencia match de Python para contabilizar el número de mensajes INFO, WARNING y ERROR dentro del archivo de logs.
+* **Se detectó e implementó** mediante la sentencia condicional if el patrón para detectar si está presente el patrón de fecha dentro de las líneas de mensajes del archivo de logs.
+* **Lo aprendido:** Utilización de Copilot para ingresar prompts comoo herramienta de apoyo a la tarea de programación.
+
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Siéntete libre de usarlo, modificarlo y distribuirlo.
