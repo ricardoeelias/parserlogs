@@ -46,7 +46,7 @@ python parser_log_wfile.py messages.log
 
 **Salida esperada en consola:**
 ```text
---- Análisis finalizado para: logs/sistema.log ---
+--- Análisis finalizado para: logs/messages.log ---
 Total de mensajes procesados: 1550
 Mal formateados: 12
 
